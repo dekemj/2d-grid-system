@@ -1,1 +1,6 @@
 # 2d-grid-system
+This is a Grid System API created by Zach Hanneman and I for a 2D Game Engine, as part of our CSS 452 class.
+
+Our grid system module within a game engine provides an important feature for game developers in terms of simplifying the movement, placement, and collision of objects in their games in a way that is both more manageable and makes the most sense for their game. Our system allows developers to place their game objects in a grid coordinate system where they define the overall size of the grid in tiles, as well as the individual width and height of each tile in world coordinates already supported by the engine. Tiles can be set to be collidable, contain specific textures, and contain game objects. Also, each tile is able to have walls on any edges, so they can be moved into but not out of in certain directions. Our system also gives developers a pathfinding function for objects given to the grid to control. Overall, our module aims to provide a "backbone" to the game developer's world without restricting them to using the grid in any particular way in order to allow for our module to be as flexible as possible with their development vision.
+
+A demo, as well as specific documentation for the API, can be found at https://hannez-edu.github.io/css452-gridsystem/
